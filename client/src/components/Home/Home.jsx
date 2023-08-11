@@ -155,7 +155,7 @@ export default function Home() {
       </td>
       <td className="total-td">{totalCantidad}</td>
       <td className="total-td">{totalCosto}</td>
-      <td className="total-td">{totalCantidad * totalCosto}</td>
+      <td className="total-td">{totalTotal}</td>
     </tr>
   );
 

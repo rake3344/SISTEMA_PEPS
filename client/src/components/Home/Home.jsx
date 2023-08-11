@@ -121,7 +121,7 @@ export default function Home() {
     let saldos = saldo[i] || {};
 
     const fecha = new Date(entrada.fecha_entrada);
-    const fechaString = fecha.toLocaleDateString();
+    const fechaString = fecha.toLocaleString();
 
     if (saldos.activo === 1) {
       totalCantidad += saldos.cantidad || 0;

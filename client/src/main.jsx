@@ -5,7 +5,8 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3000/api/peps";
+axios.defaults.baseURL =
+  "https://sistemapeps-production.up.railway.app/api/peps";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

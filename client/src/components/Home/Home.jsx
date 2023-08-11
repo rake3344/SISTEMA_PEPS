@@ -131,7 +131,7 @@ export default function Home() {
 
     const row = (
       <tr key={i}>
-        <td>{fechaString != "Invalid Date" ? fechaString : ""}</td>
+        <td>{entrada.fecha_entrada}</td>
         <td>{entrada.cantidad}</td>
         <td>{entrada.costo}</td>
         <td>{entrada.total}</td>
@@ -211,7 +211,6 @@ export default function Home() {
             className="btn-clear"
             onClick={async () => {
               const response = await axios.delete("/clean");
-              console.log(response.data);
               if (response.data.message === "datos eliminados") {
                 toastDatosEliminados();
                 setTimeout(() => {

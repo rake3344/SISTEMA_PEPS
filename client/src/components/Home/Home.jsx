@@ -120,8 +120,8 @@ export default function Home() {
     let salida = salidas[i] || {};
     let saldos = saldo[i] || {};
 
-    const fecha = new Date(entrada.fecha_entrada);
-    const fechaString = fecha.toLocaleString();
+    // const fecha = new Date(entrada.fecha_entrada);
+    // const fechaString = fecha.toLocaleString();
 
     if (saldos.activo === 1) {
       totalCantidad += saldos.cantidad || 0;

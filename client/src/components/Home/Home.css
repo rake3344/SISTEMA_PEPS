@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,400;1,200&family=Quicksand&family=Shadows+Into+Light&display=swap");
 
 .container {
-  max-width: 1800px;
+  max-width: 95vw;
   margin: 0 auto;
 }
 
 .container__inputs {
-  width: 1200px;
+  width: 75vw;
   margin: 0 auto;
   margin-top: 50px;
   display: flex;
@@ -64,8 +64,8 @@
 
 .btn-entrada {
   margin-top: 10px;
-  width: 100px;
-  height: 25px;
+  width: 90px;
+  height: 3vh;
   border: none;
   outline: none;
   border-radius: 10px;
@@ -114,6 +114,7 @@
 }
 
 .container_table table {
+  display: block;
   width: 100%;
   border-collapse: collapse;
 }
@@ -138,6 +139,12 @@ td {
   padding: 10px;
 }
 
+.container_table tbody {
+  width: auto;
+  position: relative;
+  overflow-x: auto;
+}
+
 .small_th {
   width: 160px;
 }
@@ -152,4 +159,10 @@ td {
   font-size: 2rem;
   font-weight: bold;
   background-color: #f0da85;
+}
+
+@media screen and (min-width: 50em) {
+  .container_table table {
+    display: table;
+  }
 }

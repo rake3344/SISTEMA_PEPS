@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,400;1,200&family=Quicksand&family=Shadows+Into+Light&display=swap");
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.container__inputs {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first_input label {
+  font-size: 1.5rem;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.second_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second_input label {
+  font-size: 1.5rem;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.valores_input {
+  margin-top: 15px;
+  margin: 5px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid #f9e79f;
+  outline: none;
+  border-radius: 10px;
+  font-family: Quicksand;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.valores_input[type="number"] {
+  padding-left: 10px;
+}
+
+.form_entrada {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-entrada {
+  margin-top: 10px;
+  width: 100px;
+  height: 25px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #f9e79f;
+  cursor: pointer;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+
+.btn-entrada:hover {
+  background-color: #f4d03f;
+}
+
+.form_salida {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-clear {
+  width: 90px;
+  height: 25px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: rgb(209, 40, 40);
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-clear:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.container_table {
+  width: 100%;
+  margin-top: 100px;
+  font-family: Quicksand;
+}
+
+.container_table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container_table table,
+th,
+td {
+  border: 1px solid #1f1f1f;
+  border-collapse: collapse;
+  text-align: center;
+}
+.container_table table th {
+  font-size: 1rem;
+  font-family: Quicksand;
+  background-color: #f0da85;
+  padding: 10px;
+}
+
+.container_table table td {
+  font-size: 1rem;
+  font-family: Quicksand;
+  padding: 10px;
+}
+
+.small_th {
+  width: 160px;
+}
+
+.total-title {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #f0da85;
+}
+
+.total-td {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #f0da85;
+}
